@@ -1,0 +1,323 @@
+<html lang="en">
+<head>
+<title>國立政治大學數位內容與科技學位學程</title>
+
+
+  <script type="text/javascript" src="../js/jquery.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  
+  <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="../css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta name="description" content="http://dct.cs.nccu.edu.tw/ 國立政治大學數位內容與科技學位學程定位以以雙主修方式提供全校同學學習以數位內容與科技為主的第二專長，培養具有人文內涵、資訊設計、及科技實作能力的跨領域人才。本學程擬以全校學生為對象，發展跨領域的數位內容與科技學程，做為學生的第二專長，除了能提升學生進一步修讀數位內容碩士學位及在未來職場的競爭力外，更能將所學得的資訊科技與數位內容應用能力，在原有的學術領域中產生催化的作用，進而提升政大整體的軟實力。">
+<meta name="author" content="國立政治大學數位內容與科技學位學程">
+<meta name="keywords" content="數位內容, 國立政治大學, 國立政治大學數位內容與科技學位學程, 政大, Digital Content Technology, DCT">
+
+<style>
+
+footer {
+    margin-top: 55px;
+}
+
+section {
+    margin-top: 70px;
+    box-sizing: border-box;
+}
+
+.navbar-inner {
+    background-color: white;
+    background-image: linear-gradient(to bottom, white, gary);
+    background-repeat: repeat-x;
+
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    min-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+
+.btn-group.open .btn.dropdown-toggle {
+  background-color: white;
+}
+
+.btn-group.open .btn.dropdown-toggle {
+  background-color:lime;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  color:white;
+  background-image: linear-gradient(to bottom, orange, tomato);
+  
+}
+
+.navbar .nav > li > a {
+    color: orange;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: 0 0px 0 #ffffff;
+    font-size: 16px;
+    font-family:"微軟正黑體";
+}
+
+.navbar .brand {
+  display: block;
+  float: left;
+  padding: 10px 20px 10px;
+  margin-left: -20px;
+  font-size: 25px;
+  font-weight: 200;
+  color: orange;
+  font-family:"微軟正黑體";
+  text-shadow: 1px 1px 0 Tomato;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: Darkorange;
+  text-decoration: none;
+  background-color: transparent;
+  font-size:18px;
+}
+
+.navbar-text {
+  margin-bottom: 0;
+  line-height: 40px;
+  color: white;
+  
+}
+
+.dropdown-menu li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: orange;
+  white-space: nowrap;
+  font-family:"微軟正黑體";
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #orange;
+
+  background-image: linear-gradient(to bottom, orange, tomato);
+
+
+}
+
+
+.navbar-link {
+  color: white;
+}
+
+.navbar-link:hover {
+  color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+    
+ <!-- nav開始-->	 
+    <div class="row-fluid">
+	<div class="span12">
+        <div class="navbar  navbar-fixed-top">
+        	<div class="navbar-inner">
+			    <a class="brand" href="../index.html">數位內容學士學程</a>
+         
+                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </a>
+         
+                    <!-- Everything you want hidden at 940px or less, place within here -->
+                    <div class="nav-collapse collapse">
+                    <!-- .nav, .navbar-search, .navbar-form, etc -->
+                        <ul class="nav">
+                            <li><a href="../news/news.html">最新消息</a></li>
+							
+							<li><a href="introduction.html">認識學程</a></li>
+							
+							<li class="dropdown">
+                      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">課程<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="../courses/courses_required.html">核心必修</a></li>
+                                <li><a href="../courses/base_courses_contents.html">基礎群修-內容與設計</a></li>
+                                <li><a href="../courses/base_courses_technology.html">基礎群修-科技</a></li>
+                                <li><a href="../courses/course_map.html">修課地圖</a></li>
+                              </ul>
+                    		</li>
+							
+							<li class="dropdown">
+                      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">招生訊息<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="../recruitment/recruit_rule.html">招生辦法</a></li>
+                                <li><a href="../recruitment/recruit_fair.html">招生說明會</a></li>
+                                <li><a href="../recruitment/recruit_experiences.html">學長姐經驗</a></li>
+                                <li><a href="../recruitment/recruit_application_form.html">申請表下載</a></li>
+								<li><a href="../recruitment/recruit_FAQ.html">常見FAQ</a></li>
+                              </ul>
+                    		</li>
+							
+							<li class="dropdown">
+                      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">成員<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="../members/member_teacher.html">教師</a></li>
+                                <li><a href="../members/member_student_1st.html">第一屆學生</a></li>
+                                <li><a href="../members/member_student_2nd.html">第二屆學生</a></li>
+                                <li><a href="../members/member_student_3rd.html">第三屆學生</a></li>
+								<li><a href="../members/member_TA.html">助教</a></li>
+                              </ul>
+                    		</li>
+							
+							<li class="dropdown">
+                      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">作品集<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="../works/work_teacher.html">老師作品</a></li>
+                                <li><a href="../works/work_student.html">學生作品</a></li>
+                                <li><a href="../works/work_prizes.html">獲獎作品</a></li>
+                              </ul>
+                    		</li>
+							
+							<li class="dropdown">
+                      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">設備資源<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="../facilities/facility_space.html">場地租借</a></li>
+                                <li><a href="../facilities/facility_device.html">器材租借</a></li>
+                                <li><a href="../facilities/facility_book.html">圖書資源</a></li>
+                              </ul>
+                    		</li>
+                        </ul>
+                        <ul class="nav pull-right">
+							<li><a href="../other/webmap.html">網站導覽</a></li>
+							
+							<li class="dropdown">
+                      		<a href="#" class="dropdown-toggle" data-toggle="dropdown">外部連結<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="http://www.nccu.edu.tw/">政大首頁</a></li>
+                                <li><a href="http://www.dct.nccu.edu.tw/">碩士班</a></li>
+                              </ul>
+     
+                        </ul>
+                    </div>
+         
+        	</div>
+        </div>
+
+    </div>
+    </div>
+<!-- nav結束-->
+         <div class="container">
+        <section>
+
+        <div class="row-fluid">   
+            <div class="span6 offset1">
+            <iframe width="560" height="315" src="http://www.youtube.com/embed/-D8wgmT_Vs0" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="span3 offset0.5">
+                <article>
+                    <h2>認識學程</h2>
+                    <p>數位內容與科技學士學位學程為跨領域、跨系所合作的學程，培養具有人文內涵、資訊設計、及科技實作能力的跨領域人才。政大一向以人文社會科學領域見長，具備將學院知識轉化成為數位內容應用知識的學術腹地；另一方面，近年來致力傳播知識、數位內容與資訊科技等相關領域的發展，並於98學年度起設立跨學院的數位內容碩士學位學程，數位內容與科技相關的跨領域教研環境已逐漸成形。</p>
+
+                <!--
+                    <blockquote>
+                        諮詢委員<br>
+                        施文祥董事長 西基電腦動畫股份有限公司<br>
+                        李政宜總監 和碩聯合科技股份有限公司<br>
+                        吳靜吉教授 國立政治大學講座教授<br>
+                        黃宛華主任 資策會數位教育研究所數位內容中心<br>
+                        張銘光總監 樂陞科技<br>
+                    </blockquote>
+                -->
+                </article>
+            </div>
+
+            <div class="span1"></div>
+
+        </div>
+
+    </section>
+
+        <div class="row-fluid"> 
+        <div class="span9  offset1">
+        <hr width="100%"  align="center">
+        </div>
+        </div>
+
+        
+        <div class="row-fluid"> 
+            
+            <div class="span3 offset1">                
+                    <h1><a href="../recruitment/recruit_rule.html" class="btn btn-large btn-block btn-warning disabled">學程施行要點</a></h1>
+                    <p>包含學程設置宗旨、招生對象及修習學程的相關規定。</p>                
+            </div>
+            
+            <div class="span3 offset0.5 ">
+                    <h1><a href="../courses/courses_required.html" class="btn btn-large btn-block btn-warning disabled">課程</a></h1>
+                    <p>你可以在這裡找到學程的課程，及我們建議的修課地圖。</p>
+            </div>
+            
+            <div class="span3 offset0.5">
+                    <h1><a href="../recruitment/recruit_FAQ.html" class="btn btn-large btn-block btn-warning disabled">常見問題FAQ</a></h1>
+                    <p>關於學程的問題，我們都以一問一答的方式詳述在這裡。</p>
+            </div>
+
+            <div class="span1"></div>
+   
+        </div>
+
+    
+
+</div>
+    
+
+<!-- footer開始-->    
+<footer class="modal-footer">
+
+聯絡人：洪舜菁 <br>
+地址：11605 台北市文山區指南路二段六十四號<br>
+電話：(02)29393091 轉 62274<br>
+信箱：hung@cs.nccu.edu.tw<br>
+系辦位置: 大仁樓二樓(與資科系同系辦)<br>
+
+
+</footer>
+<!-- footer結束-->
+
+</body>
+</html>
+
